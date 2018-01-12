@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lm.mrecycleview.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="adapter"
+        android:layout_margin="10dp"
+        android:text="万能adapter"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mulitiType"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="mulitiType"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addHeadFoot"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="添加头部底部"/>
+
+
+</LinearLayout>
